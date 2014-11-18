@@ -1,16 +1,15 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'middleman-frontkit/version'
+$:.push File.expand_path("../lib", __FILE__)
+require 'frontkit/version'
 
 Gem::Specification.new do |gem|
-  gem.name        = "middleman-frontkit"
-  gem.version     = Middleman::Frontkit::VERSION
+  gem.name        = "frontkit"
+  gem.version     = Frontkit::VERSION
   gem.platform    = Gem::Platform::RUBY
   gem.authors     = ["Cristian Ferrari"]
   gem.email       = ["cristianferrarig@gmail.com"]
   gem.homepage    = "http://middlemanapp.com"
-  gem.summary     = "A Middleman opinionated toolkit"
+  gem.summary     = "A opinionated toolkit based on Middleman"
   gem.description = "A static site generator. Provides dozens of templating languages (Haml, Sass, Compass, Slim, CoffeeScript, and more). Makes minification, compression, cache busting, Yaml data (and more) an easy part of your development cycle."
 
   gem.files         = `git ls-files -z`.split("\0")

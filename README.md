@@ -1,5 +1,5 @@
-# Middleman Frontkit
-**middleman-frontkit** provides an opinionated toolkit for front-end development.
+# Frontkit
+**Frontkit** provides an opinionated toolkit for front-end development based on Middleman.
 
 Get started at http://middlemanapp.com!
 
@@ -9,7 +9,7 @@ Get started at http://middlemanapp.com!
 
 Add this line to your application's Gemfile:
 
-    gem 'middleman-frontkit'
+    gem 'frontkit'
 
 And then run:
 
@@ -17,7 +17,7 @@ And then run:
 
 Or install it yourself as:
 
-    $ gem install middleman-frontkit
+    $ gem install frontkit
 
 
 

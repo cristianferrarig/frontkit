@@ -2,4 +2,7 @@ require 'middleman-core'
 require 'middleman-deploy/commands'
 
 # Make the VERSION string available
-require 'middleman-frontkit/version'
+require 'frontkit/version'
+
+# Make the Template available
+require "frontkit/template"
