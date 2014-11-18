@@ -4,7 +4,6 @@
 Get started at http://middlemanapp.com!
 
 
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -33,12 +32,12 @@ Tech default stack
 - [https://github.com/karlfreeman/middleman-deploy](Deploy) - Deploy a built site over rsync, ftp, stfp, or git.
 
 Front default stack
-- [https](Coffee Script)
-- [https](Execjs)
-- [https](Kramdown)
-- [https](HAML)
-- [https](SASS)
-- [https](Uglifier)
+- [https://github.com/jashkenas/coffeescript](Coffee Script) - A little language that compiles into JavaScript.
+- [https://github.com/sstephenson/execjs](Execjs) - Run JavaScript code from Ruby
+- [https://github.com/gettalong/kramdown](Kramdown) - Yet-another-markdown-parser but fast
+- [https://github.com/haml/haml](HAML) - HTML Abstraction Markup Language
+- [https://github.com/sass/sass](SASS) - Sass makes CSS fun again
+- [https://github.com/lautis/uglifier](Uglifier) - JavaScript parser, minifier, compressor or beautifier toolkit.
 
 
 
