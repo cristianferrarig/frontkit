@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
 
-require 'middleman-core/profiling'
+require 'frontkit/profiling'
 if ARGV.include? '--profile'
-  Middleman::Profiling.profiler = Middleman::Profiling::RubyProfProfiler.new
+  Frontkit::Profiling.profiler = Frontkit::Profiling::RubyProfProfiler.new
 end
-Middleman::Profiling.start
+Frontkit::Profiling.start
 
-require "middleman-core/load_paths"
-Middleman.setup_load_paths
+require "frontkit/extension"
+Frontkit.setup_load_paths
 
 require "frontkit/cli"
 

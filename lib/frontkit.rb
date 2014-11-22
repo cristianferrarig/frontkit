@@ -6,3 +6,5 @@ require 'frontkit/version'
 
 # Make the Template available
 require "frontkit/template"
+require "frontkit/extension"
+require "frontkit/cli"

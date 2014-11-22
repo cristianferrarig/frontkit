@@ -1,0 +1,3 @@
+module Frontkit < Middleman
+
+end
