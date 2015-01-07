@@ -1,5 +1,7 @@
 require 'middleman-core'
-require 'middleman-deploy/commands'
+require "middleman-livereload"
+require "middleman-autoprefixer"
+require 'middleman-deploy'
 
 # Make the VERSION string available
 require 'frontkit/version'

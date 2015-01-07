@@ -17,19 +17,12 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.required_ruby_version = '>= 1.9.3'
 
-  gem.add_dependency("middleman-core",         "~> 3.3.7")
-  gem.add_dependency("middleman-sprockets",    ">= 3.1.2")
+  gem.add_dependency("middleman",              "~> 3.3.7")
 
-  gem.add_dependency("middleman-livereload",   "~> 3.3.4")
-  gem.add_dependency("middleman-imageoptim",   "~> 0.1.4")
-  gem.add_dependency("middleman-autoprefixer", "~> 2.2.1")
+  gem.add_dependency("middleman-livereload",   "~> 3.4.2")
+  gem.add_dependency("middleman-imageoptim",   "~> 0.2.0")
+  gem.add_dependency("middleman-autoprefixer", "~> 2.3.0")
   gem.add_dependency("middleman-minify-html",  "~> 3.4.0")
-  gem.add_dependency("middleman-deploy",       "~> 0.3.0")
-
-  gem.add_dependency("coffee-script", ["~> 2.2"])
-  gem.add_dependency("execjs",        ["~> 2.0"])
-  gem.add_dependency("kramdown",      ["~> 1.2"])
-  gem.add_dependency("haml",          [">= 4.0.5"])
-  gem.add_dependency("sass",          [">= 3.4.0", "< 4.0"])
-  gem.add_dependency("uglifier",      ["~> 2.5"])
+  gem.add_dependency("middleman-deploy",       "~> 1.0.0")
 end
+

@@ -47,7 +47,7 @@ Front default stack
 
 
 
-## Author
+## Maintainer
 
 **Cristian Ferrari**
 [https://github.com/cristianferrarig](https://github.com/cristianferrarig)
