@@ -24,5 +24,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency("middleman-autoprefixer", "~> 2.3.0")
   gem.add_dependency("middleman-minify-html",  "~> 3.4.0")
   gem.add_dependency("middleman-deploy",       "~> 1.0.0")
+  gem.add_dependency("middleman-bower",        "~> 1.0.2")
 end
 
