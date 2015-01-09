@@ -1,8 +1,8 @@
 require 'middleman-core'
-require 'middleman-bower'
 require "middleman-livereload"
 require "middleman-autoprefixer"
 require 'middleman-deploy'
+require 'middleman/bower'
 
 # Make the VERSION string available
 require 'frontkit/version'
